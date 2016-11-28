@@ -9,6 +9,7 @@
   
   (aim: Type->Tile->(Room/Street/Building)->Map)
 * Find out how gameplay should be like
+
 ##Techincal
 * Finish code
 * Create HTML and CSS pages
