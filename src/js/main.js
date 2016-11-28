@@ -52,8 +52,8 @@ Game.prototype.load = function () {
 	for (img of ROTEXT.imgs) {
 		ROTEXT.loadimg(img);
 		loadprogress+=eachload;
-		ctx.fillStyle= "gray"; ROTEXT.ctx.fillRect(10,10,100,50);
-		ctx.fillStyle = "green"; ROTEXT.ctx.fillRect(10,10,loadprogress,50);
+		ROTEXT.ctx.fillStyle= "gray"; ROTEXT.ctx.fillRect(10,10,100,50);
+		ROTEXT.ctx.fillStyle = "green"; ROTEXT.ctx.fillRect(10,10,loadprogress,50);
 	}
 	this.display.clear();
 }
