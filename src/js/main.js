@@ -72,4 +72,4 @@ var game = new Game();
 var map = new Map();
 var player = new Player();
 export default Game;
-export ROTEXT;
+export {ROTEXT,game,map,player};
